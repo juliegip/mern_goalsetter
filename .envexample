@@ -1,4 +1,4 @@
 NODE_ENV = development
 PORT = 5000
-MONGO_URI = mongodb+srv://juliegipweb:rlaIdwy4ssWTeV3r@cluster0.ogaos5n.mongodb.net/
+MONGO_URI = mongodb+srv://YOURMONGADATABASEHERE
 JWT_SECRET = abc123
