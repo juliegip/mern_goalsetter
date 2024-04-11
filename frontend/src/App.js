@@ -9,7 +9,7 @@ import Register from "./pages/Register";
 function App() {
   return (
     <>
-      <Router basename="/goalsetter">
+      <Router>
         <div className="container">
           <Header />
           <Routes>
