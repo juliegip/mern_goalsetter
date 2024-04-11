@@ -9,13 +9,13 @@ import Register from "./pages/Register";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/goalsetter">
         <div className="container">
           <Header />
           <Routes>
-            <Route path="/goalsetter/" element={<Dashboard />} />
-            <Route path="/goalsetter/login" element={<Login />} />
-            <Route path="/goalsetter/register" element={<Register />} />
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </div>
       </Router>
