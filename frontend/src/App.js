@@ -13,9 +13,9 @@ function App() {
         <div className="container">
           <Header />
           <Routes>
-            <Route path="goalsetter/" element={<Dashboard />} />
-            <Route path="goalsetter/login" element={<Login />} />
-            <Route path="goalsetter/register" element={<Register />} />
+            <Route path="/goalsetter/" element={<Dashboard />} />
+            <Route path="/goalsetter/login" element={<Login />} />
+            <Route path="/goalsetter/register" element={<Register />} />
           </Routes>
         </div>
       </Router>
